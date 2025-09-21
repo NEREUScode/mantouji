@@ -36,9 +36,12 @@
             <div class="bg-white rounded-lg shadow-md p-4 flex items-center hover:shadow-xl transition-shadow duration-300">
 
                 <!-- Coop Logo -->
-                <img src="{{ $coop->user->image ? asset('images/' . $coop->user->image) : asset('images/default-coop.jpg') }}" 
-                     alt="{{ $coop->user->name }}" 
-                     class="w-16 h-16 rounded-full object-cover border-2 border-indigo-500 mr-4">
+                <img src="{{ optional($coop->user)->image 
+                    ? asset('images/' . $coop->user->image) 
+                    : asset('images/default-coop.jpg') }}" 
+                    alt="{{ optional($coop->user)->name ?? 'Default Coop' }}" 
+                    class="w-16 h-16 rounded-full object-cover border-2 border-indigo-500 mr-4">
+
 
                 <!-- Coop Info -->
                 <div>
