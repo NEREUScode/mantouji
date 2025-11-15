@@ -53,6 +53,7 @@
             <div class="guide-right-img-2">
                 <img src="{{ asset('images/bg/fiig-2.png') }}" alt="" srcset="">
             </div>
+        </div>
     </div>
 
     <div class="etapes-header">
