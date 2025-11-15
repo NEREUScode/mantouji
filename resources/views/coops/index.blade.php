@@ -6,6 +6,13 @@
     <title>Toutes les Coopératives</title>
     {{-- Assuming you are using Laravel Mix/Vite for assets --}}
     @vite('resources/css/app.css')
+    <style>
+        .absolute{
+            position:unset;
+            background:currentColor;
+            border-radius:8px;
+        }
+    </style>
 </head>
 <body class="bg-gray-50">
 
