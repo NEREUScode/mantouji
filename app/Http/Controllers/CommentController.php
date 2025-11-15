@@ -46,7 +46,7 @@ class CommentController extends Controller
         Comment::create([
             'product_id' => $productId,
             'user_id' => Auth::id(),
-            'comment' => $request->comment, 
+            'comment' => $request->filled('comment') ? $request->comment : 'aucun commentaire',
             'rating'  => $submittedRating, // 0 if only a comment, 1-5 if a review
         ]);
 
