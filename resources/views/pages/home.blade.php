@@ -42,7 +42,7 @@
                 <p>Votre guide vers les meilleurs produits de Figuig ✨</p>
             </div>
             <div class="guide-left-ste">
-                <p>Get iton</p>
+                <p>Accédez à</p>
                 <p>🌐   Www.Mantouji.org</p>
             </div>
         </div>
@@ -68,8 +68,8 @@
                 </div>
                 <div class="etapes-parte-1-content">
                     <img src="/images/bg/etape 1.PNG" alt="" srcset="">
-                    <p>Choose th way u wanna join us with </p>
-                    <p>A range of powerful tools for viewing, querying and filtering your data.</p>
+                    <p>Choisissez votre profil : Client pour acheter, ou Association pour vendre vos produits</p>
+                    <p>Créez votre compte en quelques clics pour accéder à la plateforme</p>
                 </div>
             </div>
             <div class="etapes-parte-2">
@@ -85,8 +85,8 @@
                 </div>
                 <div class="etapes-parte-1-content">
                     <img src="/images/bg/etape 2.PNG" alt="" srcset="">
-                    <p class="etapes-parte-1-content-r">Choose th way u wanna join us with  </p>
-                    <p class="etapes-parte-1-content-r">A range of powerful tools for viewing, querying and filtering your data.</p>
+                    <p class="etapes-parte-1-content-r">Remplissez le formulaire d'inscription avec vos informations (nom, email, téléphone)</p>
+                    <p class="etapes-parte-1-content-r">Votre compte sera activé immédiatement après validation</p>
                 </div>
             </div>
             <div class="etapes-parte-2-r">
@@ -102,8 +102,8 @@
                 </div>
                 <div class="etapes-parte-1-content">
                     <img src="/images/bg/etape 3.PNG" alt="" srcset="">
-                    <p>Choose th way u wanna join us with </p>
-                    <p>A range of powerful tools for viewing, querying and filtering your data.</p>
+                    <p>Partagez votre expérience et notez les produits que vous avez achetés</p>
+                    <p>Vos avis aident les autres clients et valorisent les producteurs locaux</p>
                 </div>
             </div>
             <div class="etapes-parte-2">
@@ -181,10 +181,10 @@
                 <div class="footer-links">
                     <ul>
                         <li style="font-weight: bold">Information</li>
-                        <li style="margin-top: 15px"><a href="#">Industry analystics</a></li>
-                        <li><a href="#">News and release</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li style="margin-top: 15px"><a href="#propo">À propos de Mantouji</a></li>
+                        <li><a href="#conta">Contact</a></li>
+                        <li><a href="#">Conditions d'utilisation</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
                     </ul>
                 </div>
 
