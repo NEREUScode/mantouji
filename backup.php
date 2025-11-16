@@ -98,15 +98,16 @@ file_put_contents(
 echo "👥 Backup des utilisateurs...\n";
 
 $users = $pdo->query("
-    SELECT 
-        id,
-        name,
-        email,
-        type,
-        created_at
+    SELECT *
     FROM users
     ORDER BY id
 ")->fetchAll(PDO::FETCH_ASSOC);
+
+// Supprimer le mot de passe pour sécurité
+foreach ($users as &$user) {
+    unset($user['password']);
+    unset($user['remember_token']);
+}
 
 echo "   → " . count($users) . " utilisateurs\n";
 
