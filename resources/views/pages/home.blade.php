@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/home.css">
-    <title>Accueil - Mantouji</title>
+    <title>الرئيسية - منتوجي</title>
 </head>
 <body>
     <div class="home">
@@ -16,20 +16,20 @@
             </div>
             <div class="content">
                 <div class="left-content">
-                    <p>La richesse de Figuig dans chaque <span>produit</span></p>
+                    <p>ثروة فكيك في كل <span>منتج</span></p>
                     <p>تمور وحرف فكيك… أصالة تعبر الأجيال</p>
                 </div>
             </div>
         </div>
 
         <div class="btn-home">
-            <div class="btn-home-left"><a href="#service">S'inscrire</a></div>
+            <div class="btn-home-left"><a href="#service">التسجيل</a></div>
             <div class="btn-home-right">
                 @if (Route::has('login'))
                     @auth
-                        <a href="{{ url('/dashboard') }}">Bienvennue !</a>
+                        <a href="{{ url('/dashboard') }}">مرحبا!</a>
                     @else
-                        <a href="{{Route('login')}}">Déjà-inscrit ?</a>
+                        <a href="{{Route('login')}}">مسجل بالفعل؟</a>
                     @endauth
                 @endif
             </div>
@@ -39,10 +39,10 @@
     <div class="guide-container">
         <div class="guide-left">
             <div class="guide-left-text">
-                <p>Votre guide vers les meilleurs produits de Figuig ✨</p>
+                <p>دليلك إلى أفضل منتجات فكيك ✨</p>
             </div>
             <div class="guide-left-ste">
-                <p>Accédez à</p>
+                <p>انتقل إلى</p>
                 <p>🌐   Www.Mantouji.org</p>
             </div>
         </div>
@@ -57,19 +57,19 @@
     </div>
 
     <div class="etapes-header">
-        <p>Découvrez rapidement !</p>
+        <p>اكتشف بسرعة!</p>
     </div>
     <div class="etapes-container">
         <div class="etapes">
             <div class="etapes-parte-1">
                 <div class="etapes-parte-1-header">
-                    <p>Etape 1</p>
-                    <p>Choisir Ton Profil</p>
+                    <p>الخطوة 1</p>
+                    <p>اختر ملفك الشخصي</p>
                 </div>
                 <div class="etapes-parte-1-content">
                     <img src="/images/bg/etape 1.PNG" alt="" srcset="">
-                    <p>Choisissez votre profil : Client pour acheter, ou Coopérative pour vendre vos produits</p>
-                    <p>Créez votre compte en quelques clics pour accéder à la plateforme</p>
+                    <p>اختر ملفك الشخصي: عميل للشراء، أو تعاونية لبيع منتجاتك</p>
+                    <p>أنشئ حسابك ببضع نقرات للوصول إلى المنصة</p>
                 </div>
             </div>
             <div class="etapes-parte-2">
@@ -80,13 +80,13 @@
         <div class="etapes-r">
             <div class="etapes-parte-1">
                 <div class="etapes-parte-1-header">
-                    <p>Etape 2</p>
-                    <p>Créer Votre Compte</p>
+                    <p>الخطوة 2</p>
+                    <p>إنشاء حسابك</p>
                 </div>
                 <div class="etapes-parte-1-content">
                     <img src="/images/bg/etape 2.PNG" alt="" srcset="">
-                    <p class="etapes-parte-1-content-r">Remplissez le formulaire d'inscription avec vos informations (nom, email, téléphone)</p>
-                    <p class="etapes-parte-1-content-r">Votre compte sera activé immédiatement après validation</p>
+                    <p class="etapes-parte-1-content-r">املأ استمارة التسجيل بمعلوماتك (الاسم، البريد الإلكتروني، الهاتف)</p>
+                    <p class="etapes-parte-1-content-r">سيتم تفعيل حسابك فورا بعد التحقق</p>
                 </div>
             </div>
             <div class="etapes-parte-2-r">
@@ -97,13 +97,13 @@
         <div class="etapes">
             <div class="etapes-parte-1">
                 <div class="etapes-parte-1-header">
-                    <p>Etape 3</p>
-                    <p>laisser Vos Avis</p>
+                    <p>الخطوة 3</p>
+                    <p>اترك آراءك</p>
                 </div>
                 <div class="etapes-parte-1-content">
                     <img src="/images/bg/etape 3.PNG" alt="" srcset="">
-                    <p>Partagez votre expérience et notez les produits que vous avez achetés</p>
-                    <p>Vos avis aident les autres clients et valorisent les producteurs locaux</p>
+                    <p>شارك تجربتك وقيم المنتجات التي اشتريتها</p>
+                    <p>آراؤك تساعد العملاء الآخرين وتثمن المنتجين المحليين</p>
                 </div>
             </div>
             <div class="etapes-parte-2">
@@ -114,14 +114,12 @@
 
     <div class="figuig-to-you-container" id="propo">
         <div class="figuig-to-you"> 
-            <p>De Figuig à vous</p>
+            <p>من فكيك إليك</p>
         </div>
         <div class="figuig-to-you-content">
             <p>
-                Mantouji est une plateforme dédiée à la valorisation des produits agricoles, agroalimentaires et
-                artisanaux, avec un ancrage fort dans la région de Figuig.
-                Elle met en relation directe les producteurs, coopératives et artisans locaux avec les
-                consommateurs et partenaires, en garantissant authenticité, traçabilité et qualité.
+                منتوجي منصة مخصصة لتثمين المنتجات الزراعية والغذائية والحرفية، مع تجذر قوي في منطقة فكيك.
+تربط مباشرة بين المنتجين والتعاونيات والحرفيين المحليين مع المستهلكين والشركاء، مع ضمان الأصالة والتتبع والجودة.
             </p>
             <p>
                 هدفنا هو دعم الاقتصاد المحلي، إبراز هوية فكيك التراثية، وتقديم منتجات عالية الجودة مباشرة من المنتج إلى المستهلك.
@@ -143,7 +141,7 @@
     </div>
     <div class="auth" id="service">
         <div class="auth-header">
-            <p>Dites-nous qui vous êtes !</p>
+            <p>أخبرنا من أنت!</p>
         </div>
         <div class="auth-cards">
             <div class="card">
@@ -152,12 +150,12 @@
                         <div class="card-container-image">
                             <img src="/images/icones/client.png" alt="" srcset="">
                         </div>
-                        <p><a href="{{Route('register', ['type' => 0])}}">Client ?</a></p>
+                        <p><a href="{{Route('register', ['type' => 0])}}">عميل؟</a></p>
                     </div>
                 </div>
             </div>
             <div class="auth-card-or">
-                <p>OU</p>
+                <p>أو</p>
             </div>
             <div class="card">
                 <div class="card-content-header">
@@ -165,7 +163,7 @@
                         <div class="card-container-image">
                             <img src="/images/icones/store.png" alt="" srcset="">
                         </div>
-                        <p><a href="{{Route('register', ['type' => 1])}}">Coopérative ?</a></p>
+                        <p><a href="{{Route('register', ['type' => 1])}}">تعاونية؟</a></p>
                     </div>
                 </div>
             </div>
@@ -180,27 +178,27 @@
             <div class="footer-links-container">
                 <div class="footer-links">
                     <ul>
-                        <li style="font-weight: bold">Information</li>
-                        <li style="margin-top: 15px"><a href="#propo">À propos de Mantouji</a></li>
-                        <li><a href="#conta">Contact</a></li>
-                        <li><a href="#">Conditions d'utilisation</a></li>
-                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li style="font-weight: bold">معلومات</li>
+                        <li style="margin-top: 15px"><a href="#propo">عن منتوجي</a></li>
+                        <li><a href="#conta">اتصل</a></li>
+                        <li><a href="#">شروط الاستخدام</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-links">
                     <ul>
-                        <li style="font-weight: bold">Liens Utiles</li>
-                        <li style="margin-top: 15px"><a href="#acc">Acceuile</a></li>
-                        <li><a href="#propo">A propos</a></li>
-                        <li><a href="#service">Services</a></li>
-                        <li><a href="#conta">Contact</a></li>
+                        <li style="font-weight: bold">روابط مفيدة</li>
+                        <li style="margin-top: 15px"><a href="#acc">الرئيسية</a></li>
+                        <li><a href="#propo">عن المنصة</a></li>
+                        <li><a href="#service">الخدمات</a></li>
+                        <li><a href="#conta">اتصل</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-links">
                     <ul>
-                        <li style="font-weight: bold">Contact</li>
+                        <li style="font-weight: bold">اتصل</li>
                         <li style="margin-top: 15px"><a href="https://www.tech-da.com/">Tech-da</a></li>
                         {{-- <li>Home</li>
                         <li>Home</li>
@@ -220,9 +218,9 @@
             </div>
             <div class="footer-terms">
                 <ul>
-                    <li>Conditions</li>
-                    <li>Confidentialité</li>
-                    <li>Politique des Cookies</li>
+                    <li>الشروط</li>
+                    <li>الخصوصية</li>
+                    <li>سياسة ملفات تعريف الارتباط</li>
                 </ul>
             </div>
         </div>

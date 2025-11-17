@@ -5,7 +5,7 @@
                     <li><a href="#acc">Accueil</a></li>
                     <li><a href="#propo">À propos</a></li>
                     <li><a href="#service">Services</a></li>
-                    <li><a href="#conta">Contact</a></li>
+                    <li><a href="#conta">اتصل</a></li>
                 </ul>
             </div>
             <div class="nav-icone">
@@ -34,7 +34,7 @@
                 <li><a href="#acc">Accueil</a></li>
                 <li><a href="#propo">À propos</a></li>
                 <li><a href="#service">Services</a></li>
-                <li><a href="#conta">Contact</a></li>
+                <li><a href="#conta">اتصل</a></li>
             </ul>
         </div>
     </div>
