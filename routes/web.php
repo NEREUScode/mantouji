@@ -10,6 +10,7 @@ use App\Http\Controllers\CommentController;
 
 
 
+
 Route::get('/', function () {
     return view('pages.home');
 })->name('home');
