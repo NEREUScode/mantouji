@@ -307,3 +307,61 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* Comment */
+.comments-box {
+    display: none;
+    padding: 15px;
+    margin-top: 12px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+.comment-item {
+    background: #ffffff;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comment-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.comment-item strong {
+    color: #333;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comment-item p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.show-comments-btn {
+    padding: 6px 14px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.show-comments-btn:hover {
+    background-color: #45a049;
+}
+.product-card {
+    margin-bottom: 20px;
+}

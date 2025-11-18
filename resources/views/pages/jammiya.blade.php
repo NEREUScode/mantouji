@@ -82,7 +82,23 @@
                                 <button class="delete-btn"><img src="/images/icones/delete.png" alt=""   style="width : 35px"></button>
                             </form>
                         </div>
-                    {{-- <button class="show-comments-btn">Show Comments</button> --}}
+                    
+                          <button class="show-comments-btn"
+                                onclick="toggleComments('comments-{{ $product->id }}')">
+                            Show Comments
+                        </button>
+                    <div id="comments-{{ $product->id }}" class="comments-box">
+                        @foreach ($product->comments as $comment)
+                            <div class="comment-item">
+                                <strong>{{ $comment->user->name }}</strong>
+                                <p>{{ $comment->comment }}</p>
+                            </div>
+                        @endforeach
+
+                        @if ($product->comments->count() == 0)
+                            <p>No comments yet </p>
+                        @endif
+                    </div>
                 </div>
             @endforeach
         </div>

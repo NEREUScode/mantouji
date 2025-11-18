@@ -52,4 +52,17 @@ class CommentController extends Controller
 
         return redirect()->back()->with('success', 'Votre avis a été publié avec succès!');
     }
+
+    // public function showComment($productId)
+    // {
+    //     $comments = Comment::where('product_id', $productId)->with('user')->get();
+
+    //     return response()->json($comments); 
+    // }
+    public function showProducts()
+{
+    $products = Product::with(['comments.user'])->get();
+
+    return view('pages.jammiya', compact('products'));
+}
 }

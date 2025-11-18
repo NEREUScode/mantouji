@@ -66,5 +66,3 @@ Route::middleware(['auth', 'verified', 'client'])->group(function () {
 Route::post('/products/{product}/comments', [CommentController::class, 'store'])
     ->name('comments.store')
     ->middleware('auth');
-
-    // tesstoox
